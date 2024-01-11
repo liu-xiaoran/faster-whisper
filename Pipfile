@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pip_conf_index_global"
+
+[packages]
+av = "==10.*"
+ctranslate2 = "<4,>=3.22"
+huggingface-hub = ">=0.13"
+tokenizers = "<0.16,>=0.13"
+onnxruntime = "<2,>=1.14"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.17"
